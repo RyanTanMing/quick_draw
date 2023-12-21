@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(red,pink,white,pink,red);
+    font-size: 16px;
+}
+#showsketch {
+    float: right;
+}
+#sketch {
+    color: red;
+}
+#score {
+    margin-left: 90%;
+}
+#timer {
+    margin-right: 90%;
+}
+canvas{
+    border: 5px solid rgb(0, 0, 0);
+border-radius: 10px;
+animation-name: test;
+animation-duration: 2s;
+margin-top: 50px;
+animation-iteration-count: infinite;
+}
+@keyframes test{
+    from {box-shadow:2px 3px 38px rgb(202, 67, 67)}
+    to {box-shadow:2px 3px 38px rgb(229, 224, 162)}
+}
